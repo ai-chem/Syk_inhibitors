@@ -8,10 +8,7 @@ To address these challenges, computational methods and machine learning approach
 
 # Project implementation
 
-An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. After initial processing presented in the file `data_preprocessing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
-
-**Morgan fingerprints** were chosen as the main molecular descriptors. 
-Подготовленный для обучения предказательной модели датасет, с выгруженными дескрипторами представлен по ссылке.
+An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. After initial processing presented in the file `data_preprocessing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule. **Morgan fingerprints** were chosen as the main molecular descriptors. Подготовленный для обучения предказательной модели датасет, с выгруженными дескрипторами представлен по ссылке.
 
 Процесс обучения моделей  is presented in the file `manual_patterns.ipynb`. final model - ляля
 
