@@ -8,14 +8,13 @@ To address these challenges, computational methods and machine learning approach
 
 # Project implementation
 
-An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. After initial processing presented in the file `data_preprocessing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule. **Morgan fingerprints** were chosen as the main molecular descriptors. Подготовленный для обучения предказательной модели датасет, с выгруженными дескрипторами представлен по ссылке.
+An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. After initial processing presented in the file `data_preprocessing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
 
-Процесс обучения моделей  is presented in the file `manual_patterns.ipynb`. final model - ляля
+**Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder [df_fp.csv](df_fp.csv).
+
+The process of model training  is presented in the file [`Predicted_model.ipynb`](Predicted_model.ipynb).
 
 
 ## Generative model
 
-Since the therapeutic effect of a molecule is largely determined by its affinity for the target protein, a generation method using **molecular docking** was chosen. To do this, we used the `Freed++` model. This model was chosen due to its fast and efficient generation method, as well as its versatility for a variety of proteins.
-
-The results of using this model have already led to the first potential inhibitors. Of course, we still have to improve our results by expanding the capabilities of the predictive model to more accurately assess the generated molecules, as well as using different approaches in working with `Freed++`.
 
