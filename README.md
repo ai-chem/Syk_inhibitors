@@ -10,21 +10,21 @@ To address these challenges, computational methods and machine learning approach
 
 <div align="middle"><img src="Data/Pipeline (2).svg" style="width : 100%; min-width : 300px; "/></div>  
 
-### 1. Data collection
+## Data collection
 An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. `all_mols.csv`
 
-### 2. Data processing
+## Data processing
 After initial processing presented in the file `Data_processing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
 
 **Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder `df_fp.csv`.
 
-### 3. QSAR model
+## QSAR model
 The process of model training is presented in the file `Predicted_model.ipynb`.
 
-### 4. Inhibitors generation
+## Inhibitors generation
 Evaluation of the generated molecules and generation approaches is presented in the file `Generation_analysis.ipynb`.
 
-### 5. Promising inhibitors
+## Promising inhibitors
 Analysis of the properties of the obtained molecules, as well as their comparison with ChEMBL inhibitors is presented in the file `Property_analysis.ipynb`.
 
 
