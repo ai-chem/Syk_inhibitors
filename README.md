@@ -11,7 +11,7 @@ To address these challenges, computational methods and machine learning approach
 ### Data collection
 An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. [`all_mols.csv`](all_mols.csv).
 
-#### Data processing
+### Data processing
 After initial processing presented in the file [`Data_processing.ipynb`](Data_processing.ipynb) the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
 
 **Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder [`df_fp.csv`](df_fp.csv).
