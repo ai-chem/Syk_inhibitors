@@ -8,13 +8,21 @@ To address these challenges, computational methods and machine learning approach
 
 # Project implementation
 
-An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. After initial processing presented in the file `data_preprocessing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
+### Data collection
+An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. [`all_mols.csv`](all_mols.csv).
 
-**Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder [df_fp.csv](df_fp.csv).
+#### Data processing
+After initial processing presented in the file [`Data_processing.ipynb`](Data_processing.ipynb) the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
 
-The process of model training  is presented in the file [`Predicted_model.ipynb`](Predicted_model.ipynb).
+**Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder [`df_fp.csv`](df_fp.csv).
 
+### QSAR model
+The process of model training is presented in the file [`Predicted_model.ipynb`](Predicted_model.ipynb).
 
-## Generative model
+### Inhibitors generation
+Evaluation of the generated molecules and generation approaches is presented in the file [`Generation_analysis.ipynb`](Generation_analysis.ipynb).
+
+### Promising inhibitors
+Analysis of the properties of the obtained molecules, as well as their comparison with ChEMBL inhibitors is presented in the file [`Property_analysis.ipynb`](Property_analysis.ipynb).
 
 
