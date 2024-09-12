@@ -8,7 +8,7 @@ To address these challenges, computational methods and machine learning approach
 
 # Project implementation
 
-<div align="middle"><img src="images/pipeline (2).svg" style="width : 100%; min-width : 300px; "/></div>  
+<div align="middle"><img src="Data/Pipeline (2).svg" style="width : 100%; min-width : 300px; "/></div>  
 
 ### 1. Data collection
 An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. `all_mols.csv`
