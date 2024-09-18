@@ -12,23 +12,23 @@ To address these challenges, computational methods and machine learning approach
 
 <div align="middle"><img src="Data/Graphical_abstract.svg" style="width : 100%; min-width : 300px; "/></div>  
 
-## Data collection
+### Data collection
 An open database of medicinal molecules (**ChEMBL**), were used as data sources for collecting the dataset. `all_mols.csv`
 
-## Data processing
+### Data processing
 After initial processing presented in the file `Data_processing.ipynb` the dataset contained $3{,}152$ inhibitor molecules with a known $IC_{50}$ value, a key indicator of the effectiveness of a molecule.
 
 **Morgan fingerprints** were chosen as the main molecular descriptors. The dataset prepared for training, with loaded descriptors, is presented in the Data folder `df_fp.csv`.
 
-## QSAR model
+### QSAR model
 The process of model training is presented in the file `Predicted_model.ipynb`.
 
-## Inhibitors generation
+### Inhibitors generation
 Evaluation of the generated molecules and generation approaches is presented in the file `Generation_analysis.ipynb`.
 
-## Promising inhibitors
+### Promising inhibitors
 Analysis of the properties of the obtained molecules, as well as their comparison with ChEMBL inhibitors is presented in the file `Property_analysis.ipynb`.
 
-# Syk Inhibitor IC50 Predictor: A SMILES-based Tool for Drug Discovery
+## Syk Inhibitor IC50 Predictor: A SMILES-based Tool for Drug Discovery
 
 The notebook `IC50_predictor.ipynb` provides an interactive tool for predicting the $IC_{50}$ values of potential Syk inhibitors based on their SMILES representation.
