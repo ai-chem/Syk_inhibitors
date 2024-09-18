@@ -4,7 +4,9 @@
 
 **Immune thrombocytopenia**, a rare autoimmune disorder, is one condition where new Syk inhibitors are particularly needed. Despite the development of several Syk inhibitors, including the approved drug Fostamatinib, challenges persist in achieving optimal efficacy and safety profiles.
 
-To address these challenges, computational methods and machine learning approaches have been increasingly utilized in drug discovery. While previous studies have employed virtual screening, pharmacophore modeling, and molecular docking to identify potential Syk inhibitors, this study introduces a novel approach using generative models based on reinforcement learning. The FREED++ deep reinforcement learning method is used to generate new candidate structures, with machine learning methods employed to evaluate promising molecules. This innovative approach not only applies state-of-the-art generative models to Syk inhibitor design but also demonstrates a methodology for adapting generative algorithms to design inhibitors against specific therapeutic targets.
+To address these challenges, computational methods and machine learning approaches have been increasingly utilized in drug discovery. This study introduces a novel approach using generative models based on reinforcement learning to obtain novel Syk inhibitors molecules. Moreover our approach demonstrates a methodology for adapting generative algorithms to design inhibitors against specific therapeutic targets.
+
+
 
 # Project implementation
 
@@ -27,4 +29,6 @@ Evaluation of the generated molecules and generation approaches is presented in 
 ## Promising inhibitors
 Analysis of the properties of the obtained molecules, as well as their comparison with ChEMBL inhibitors is presented in the file `Property_analysis.ipynb`.
 
+# Syk Inhibitor IC50 Predictor: A SMILES-based Tool for Drug Discovery
 
+The notebook `IC50_predictor.ipynb` provides an interactive tool for predicting the $IC_{50}$ values of potential Syk inhibitors based on their SMILES representation.
